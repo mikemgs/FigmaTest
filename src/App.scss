@@ -7,9 +7,16 @@
     margin-top: 150px;
 }
 
+.dark {
+    button {
+        border-radius: $sd-test-border-sm;
+        background-color: $sd-test-brand-main-dark;
+        padding: 8px 24px;
+    }
+}
+
 button {
     border-radius: $sd-test-border-sm;
     background-color: $sd-test-brand-main-light;
-    border-color: $sd-test-brand-main-dark;
     padding: 8px 24px;
 }
