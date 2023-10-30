@@ -1,5 +1,15 @@
-@import './styles/tokens/variables'
+@import './styles/tokens/variables';
+
+.App {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+}
 
 button {
-    border-radius: $
+    border-radius: $sd-test-border-sm;
+    background-color: $sd-test-brand-main-light;
+    border-color: $sd-test-brand-main-dark;
+    padding: 8px 24px;
 }

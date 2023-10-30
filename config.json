@@ -1,0 +1,15 @@
+{
+  "source": ["tokens.json"],
+  "platforms": {
+    "scss": {
+      "transformGroup": "scss",
+      "prefix": "sd",
+      "buildPath": "src/styles/tokens/",
+      "files": [{
+        "destination": "_variables.scss",
+        "format": "scss/variables"
+      }],
+      "actions": ["copy_assets"]
+    }
+  }
+}
